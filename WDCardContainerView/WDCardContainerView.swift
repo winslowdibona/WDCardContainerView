@@ -8,12 +8,12 @@
 
 import UIKit
 
-protocol CardContainerViewDelegate {
+protocol WDCardContainerViewDelegate {
     func allowSwipe(cardContainerView : WDCardContainerView, direction : SwipeDirection, index : Int) -> Bool
     func swipedLastCard(cardContainerView : WDCardContainerView)
 }
 
-protocol CardContainerViewDataSource {
+protocol WDCardContainerViewDataSource {
     func numberOfCards(cardContainerView : WDCardContainerView) -> Int
     func sizeForCards(cardContainerView : WDCardContainerView) -> CGSize
     func viewForIndex(cardContainerView : WDCardContainerView, index : Int) -> WDCardView
@@ -38,8 +38,8 @@ private enum CardAnimation {
 
 class WDCardContainerView: UIView {
     
-    var delegate : CardContainerViewDelegate?
-    var dataSource : CardContainerViewDataSource?
+    var delegate : WDCardContainerViewDelegate?
+    var dataSource : WDCardContainerViewDataSource?
     var numberOfCards : Int!
     var cards : [Int : WDCardView] = [Int : WDCardView]()
     var currentIndex : Int = 0
@@ -73,7 +73,7 @@ class WDCardContainerView: UIView {
         super.init(coder: aDecoder)
     }
     
-    init(frame : CGRect, delegate : CardContainerViewDelegate, dataSource : CardContainerViewDataSource) {
+    init(frame : CGRect, delegate : WDCardContainerViewDelegate, dataSource : WDCardContainerViewDataSource) {
         super.init(frame: frame)
         windowView = (UIApplication.sharedApplication().delegate as! AppDelegate).window!
         self.delegate = delegate
