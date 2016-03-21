@@ -12,6 +12,8 @@
 		8D0A34FB1CA026E500ED7EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A34F91CA026E500ED7EA8 /* Main.storyboard */; };
 		8D0A34FD1CA026E500ED7EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A34FC1CA026E500ED7EA8 /* Assets.xcassets */; };
 		8D0A35001CA026E500ED7EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A34FE1CA026E500ED7EA8 /* LaunchScreen.storyboard */; };
+		8D0A35081CA026F200ED7EA8 /* WDCardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A35071CA026F200ED7EA8 /* WDCardContainerView.swift */; };
+		8D0A350A1CA0275400ED7EA8 /* WDCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A35091CA0275400ED7EA8 /* WDCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8D0A34FC1CA026E500ED7EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0A34FF1CA026E500ED7EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D0A35011CA026E500ED7EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0A35071CA026F200ED7EA8 /* WDCardContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDCardContainerView.swift; sourceTree = "<group>"; };
+		8D0A35091CA0275400ED7EA8 /* WDCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8D0A34FC1CA026E500ED7EA8 /* Assets.xcassets */,
 				8D0A34FE1CA026E500ED7EA8 /* LaunchScreen.storyboard */,
 				8D0A35011CA026E500ED7EA8 /* Info.plist */,
+				8D0A35071CA026F200ED7EA8 /* WDCardContainerView.swift */,
+				8D0A35091CA0275400ED7EA8 /* WDCardView.swift */,
 			);
 			path = WDCardContainerView;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				8D0A34F81CA026E500ED7EA8 /* ViewController.swift in Sources */,
 				8D0A34F61CA026E500ED7EA8 /* AppDelegate.swift in Sources */,
+				8D0A35081CA026F200ED7EA8 /* WDCardContainerView.swift in Sources */,
+				8D0A350A1CA0275400ED7EA8 /* WDCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
